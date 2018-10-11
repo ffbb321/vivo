@@ -1,4 +1,4 @@
-.myCar,.cartHead{
+.myCar,.cartHead,.totPrice{
     background: #fff;
     margin: 0 auto;
     width: 1200px;
@@ -101,5 +101,51 @@
     }
     .movColl,.delpro{
         cursor: pointer;
+    }
+}
+.totPrice{
+    height: 98px;
+    line-height: 98px;
+    padding: 0 26px;
+    margin-bottom: 30px;
+    li{
+        margin-right:30px;
+        float: left;
+    }
+    .totCheck,.delChecked,.movColl{
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .tothov:hover{color: #f51200}
+    .totCheck{
+        width: 74px;
+    }
+    .delChecked{
+        width: 130px;
+    }
+    .movColl{
+        width: 80px;
+    }
+    .totPriTag{
+        width: 545px;
+        text-align: right;
+        .totNum{
+            color: #f51200;
+        }
+        .totPriBox{
+            color: #f51200;
+            font-size: 30px;
+        }
+    }
+    .totPay{
+        width: 160px;
+        height: 46px;
+        border: 0;
+        border-radius: 23px;
+        background: #f51200;
+        text-align: center;
+        line-height: 46px;
+        color: #fff;
+        font-size: 16px;
     }
 }

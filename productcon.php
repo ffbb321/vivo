@@ -12,7 +12,8 @@
 </head>
 <body>
     <?php
-        $json = json_decode(file_get_contents("json/procon.json"));
+        $name = isset($_GET['name']) ? $_GET['name'] : 'procon';
+        $json = json_decode(file_get_contents("json/".$name.".json"));
     ?>
     <div id="vivo">
         <div id="topbg">
@@ -50,13 +51,13 @@
         <div id="procon">
             <div class="proimg">
                 <div class="proPicBox">
-                    <img class="proPic" src="images/750.png" alt="">
+                    <img class="proPic" src=<?php echo $json->pic?> alt="">
                     <img class="prosale" src="images/sale.png" alt="">
                 </div>
                 <ul class="proPicList">
-                    <li><img class="Listpic" src="images/750.png" alt=""></li>
-                    <li><img class="Listpic" src="images/750.png" alt=""></li>
-                    <li><img class="Listpic" src="images/750.png" alt=""></li>
+                    <li><img class="Listpic" src=<?php echo $json->pic?> alt=""></li>
+                    <li><img class="Listpic" src=<?php echo $json->pic?> alt=""></li>
+                    <li><img class="Listpic" src=<?php echo $json->pic?> alt=""></li>
                 </ul>
             </div>
             <div class="proprice">

@@ -36,6 +36,9 @@ var shopcar=(function(){
                 this.$subTotal.innerHTML=Number( this.$proPrione.innerHTML)*Number(this.$numVal.value);
             }
         },
+        changeData:function(){
+            
+        }
     }
 
 }())
