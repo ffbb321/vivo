@@ -77,18 +77,20 @@
             <li class="proPrione">价格（元）</li>
             <li class="proCount">数量</li>
             <li class="disCount">优惠</li>
-            <li>赠送积分</li>
+            <li class="sentpoint">赠送积分</li>
             <li class="subTotal">小计（元）</li>
             <li class="operate">操作</li>
         </ul>
         <ul class="cartBox cartHead">
-            <li><input type="checkbox" checked></li>
+            <li class="proCheck"><input type="checkbox" checked></li>
             <li class="proName">
                 <div class="proPicBox">
                     <img src="images/01.png" alt="">
                 </div>
-                <p class="proNameTit">哈哈哈</p>
-                <p class="proColor">颜色:<span>黑色</span></p>
+                <div class="proTip">
+                    <p class="proNameTit">哈哈哈哈</p>
+                    <p class="proColor">颜色:<span>黑色</span></p>
+                </div>
             </li>
             <li class="proPrione">
                 2000
@@ -99,7 +101,7 @@
                 <div class="numAdd">+</div>
             </li>
             <li class="disCount"></li>
-            <li></li>
+            <li class="sentpoint"></li>
             <li class="subTotal">
             </li>
             <li class="operate">
@@ -107,6 +109,9 @@
                 <div class="delpro">删除</div>
             </li>
         </ul>
+        <div class="totPrice">
+            
+        </div>
         <div id="Bottombg">
             <div id="Bottom">
                 <ul class="Titlist">
@@ -208,6 +213,10 @@
             </li>
         </ul>
     </div>
+    <script src="js/shopcar.js"></script>
+    <script>
+        shopcar.init();
+    </script>
 </body>
 
 </html>

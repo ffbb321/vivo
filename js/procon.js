@@ -15,6 +15,7 @@ var procon = (function () {
             this.$proPriTit=document.querySelector('.proPriTit');
         },
         event: function () {
+            var pricone=this.$priTagNum.innerHTML;
             var _this = this;
             this.$buynow.onclick = function () {
                 location.href = 'vivologin.html';
@@ -25,7 +26,7 @@ var procon = (function () {
                 var items={
                     name:_this.$proPriTit.innerHTML,
                     num:_this.$numVal.value,
-                    price:_this.$priTagNum.innerHTML
+                    price:pricone
                 }
                 var id=_this.$proPriTit.getAttribute('data-id');
                 _this.addCarf(id,items)
@@ -37,7 +38,6 @@ var procon = (function () {
             this.$goPay.onclick=function(){
                 location.href='vivologin.html';
             }
-            var pricone=this.$priTagNum.innerHTML;
             this.$numAdd.onclick=function(){
                 if(_this.$numVal.value<5){
                     _this.$numVal.value=_this.$numVal.value-0+1;
