@@ -1,0 +1,212 @@
+
+.banner,#menu,#reMai,#jingPin,#peiJian{width: 1244px;margin: 0 auto}
+
+
+
+/* top */
+
+/* banner */
+#bannerbg{
+    position: relative;
+    height: 523px;
+    width: 100%
+}
+.banner{
+    height: 523px;
+    position: relative;
+}
+.wrapper{
+    position: absolute;
+    overflow: hidden;
+    width:100%;
+    height: 523px;
+}
+.wrapperBox{
+    position: absolute;
+    width: 100%;
+    height: 523px;
+    opacity: 10;
+    overflow: hidden;
+}
+.wrapperBox li{
+    position: absolute;
+    float: left;
+    height: 523px;
+    min-width: 2560px;
+    overflow: hidden;
+}
+.wrapperBox li img{
+    display: block;
+    height: 523px;
+    min-width: 2000px;
+    position: absolute;  
+   left: -25%;
+}
+.uu{
+    position: absolute;
+    left: 41%;
+    bottom: 30px;
+}
+.uu li{
+    float: left;
+    margin-left: 8px;
+    width: 40px;
+    height: 3px;
+    background: rgba(255,255,255,0.8)
+}
+.uu li.current{
+    height: 6px;
+    background: #fff;
+}
+.secmenu{
+    width: 200px;
+    height: 482px;
+    padding: 30px 0;
+    position: absolute;
+    background: rgba(255,255,255,0.5);
+    left: 31px;
+    top:21px;
+    z-index: 50;
+}
+.secmenu li{
+    width: 200px;
+    height: 60px;
+    position: relative;
+}
+.secmelist_i{
+    position: absolute;
+    right: 28px;
+    top: 19px;
+}
+.secmelist{
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 42px;
+    padding-right: 48px;
+    color: #333333;
+}
+.secmelist:hover{
+    background: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+/* menu */
+#menu{
+    height: 150px;
+    margin-top: 10px;
+    padding: 0 30px
+}
+.menu-con{
+    padding-left: 5px;
+}
+.menupic{
+    width: 288px;
+    height: 140px;}
+
+/* reMai */
+#reMai{
+    height: 615px;
+    padding: 0 30px;
+}
+.minTit{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.minMore{
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    color: #2f2f2f;
+    right: 0;
+    top: 50%;
+}
+.minMore_i {
+    font-size: 12px;
+}
+.reMai-con{
+    height: 510px;
+    padding-left: 2px;
+    text-align: center;
+}
+.reMaiProBg{
+    height: 510px;
+    background: #fff;
+}
+.reMaiPro{
+    display: block;
+    width: 394px;
+    height: 288px;
+    padding:58px 80px 0; 
+}
+.reMaiPro img{
+    width: 230px;
+    height: 230px;
+}
+.proTit{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.proTip{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.proPrice{
+    font-size: 18px;
+    color: #f61919;
+}
+.proChoose{
+    display: none;
+}
+.proBtn{
+    display: none;
+}
+
+/* jingPin */
+#jingPin{
+    height: 870px;
+    padding: 0 30px;
+}
+.jingTop,.jingBottom{
+    height: 380px;
+    margin-bottom: 10px;
+}
+.jingBigger img{
+    width: 595px;
+    height: 380px;
+}
+.jingConBg{
+    padding: 0 10px;
+}
+.jingCon{
+    width: 293px;
+    height: 380px;
+    padding-top: 50px;
+    background: #fff;
+    text-align: center;
+}
+.jingCon img{
+    width: 172px;
+    height: 172px;
+    margin:0 0 20px 60px
+}
+.jingPrice{
+    color: #f61919;
+    margin-top: 30px;
+}
+
+/* peiJian */
+#peiJian{
+    height: 930px;
+    padding:0 30px;
+}
+
+
+
+
+
+

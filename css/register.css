@@ -1,0 +1,60 @@
+
+#registerBox{
+    padding-top: 80px;
+    width: 100%;
+    background: #f7f7f7;
+}
+.register{
+    width: 840px;
+    height: 430px;
+    margin: 0 auto;
+    padding: 50px 30px 60px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+}
+.waring1,.waring2{
+    width: 220px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    left: 643px;
+    text-align: left;
+}
+.waring1{
+    top: 169px;
+}
+.waring2{
+    top: 294px;
+}
+.register img{
+    position: absolute;
+    left: 43%;
+}
+.regiTit{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+.phone,.username,.newpass,.nowpass{
+    width: 342px;
+    height: 48px;
+    padding-left: 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.next{
+    margin-top: 15px;
+    width: 360px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size:19px;
+    cursor: pointer;
+    background: #2899f7;
+    color: #fff;
+    border: 0;
+}
