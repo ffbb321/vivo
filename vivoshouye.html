@@ -485,9 +485,15 @@
         </li>
     </ul>
 </div>
+<script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/shouye.js"></script>
 <script>
-
+    $('.my').mouseenter(function(){
+        $(".my_sec").slideDown("normal");
+    })
+    $('.my').mouseleave(function(){
+        $(".my_sec").slideUp("normal");
+    })
 </script>
 </body>
 </html>

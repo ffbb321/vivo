@@ -1,0 +1,27 @@
+{
+  "name": "vivo",
+  "version": "1.0.0",
+  "description": "vivo电商",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffbb321/vivo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffbb321/vivo/issues"
+  },
+  "homepage": "https://github.com/ffbb321/vivo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-connect": "^5.6.1",
+    "gulp-html-minify": "0.0.14",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}

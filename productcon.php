@@ -29,6 +29,9 @@
                     <img class="proPic" src=<?php echo $json->pic?> alt="">
                     <img class="prosale" src="images/sale.png" alt="">
                 </div>
+                <div class="proBigPic">
+                    <img src=<?php echo $json->pic?> alt="">
+                </div>
                 <ul class="proPicList">
                     <li><img class="Listpic" src=<?php echo $json->pic?> alt=""></li>
                     <li><img class="Listpic" src=<?php echo $json->pic?> alt=""></li>

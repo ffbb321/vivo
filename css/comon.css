@@ -50,9 +50,9 @@ a:hover {
     right: 142px;
     top: -1px
 }
-.my:hover .my_sec{
+/* .my:hover .my_sec{
     display: block;
-}
+} */
 .my_sec{
     position: absolute;
     padding-top: 10px;
