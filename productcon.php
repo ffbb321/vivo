@@ -17,31 +17,6 @@
     ?>
     <div id="vivo">
         <div id="topbg">
-            <div id="top">
-                <a href="#" class="logo"></a>
-                <ul class="topul">
-                    <li><a href="#">NEX系列</a></li>
-                    <li><a href="#">X系列</a></li>
-                    <li><a href="#">Z系列</a></li>
-                    <li><a href="#">Y系列</a></li>
-                    <li><a href="#">商城</a></li>
-                    <li><a href="#">专卖店</a></li>
-                    <li><a href="#">Funtouch OS</a></li>
-                    <li><a href="#">服务</a></li>
-                    <li><a href="#">社区</a></li>
-                </ul>
-                <div class="search iconfont icon-sousuo">
-                    
-                </div>
-                <div class="my iconfont icon-profile">
-                    <ul class="my_sec">
-                        <li><a href="vivologin.html">购物车</a></li>
-                        <li><a href="vivologin.html">我的订单</a></li>
-                        <li><a href="vivologin.html">我的商城</a></li>
-                        <li><a href="vivologin.html">登录/注册</a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
         <div id="navi">
             <a href="vivoshouye.html">商品首页<i class="iconfont icon-arrow-right-copy"></i></a>
@@ -98,104 +73,8 @@
             </div>
         </div>
         <div id="Bottombg">
-                <div id="Bottom">
-                    <ul class="Titlist">
-                        <li>
-                            <a href="#">
-                                <i class="iconfont icon-zhengpinbaozhang2 titsize"></i>
-                                官方正品
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="iconfont icon-favorite titsize"></i>
-                                满68包邮
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="iconfont icon-30 titsize"></i>
-                                30天退换货
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="iconfont icon-shouhouguanli titsize"></i>
-                                全国网点售后
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="conList">
-                        <ul class="conListLef">
-                            <li>热门链接</li>
-                            <li>官方商城</li>
-                            <li>选购手机</li>
-                            <li>选购配件</li>
-                            <li>选购碎屏保</li>
-                            <li>以旧换新</li>
-                        </ul>
-                        <ul class="conListLef">
-                            <li>在线购买</li>
-                            <li>官方商城</li>
-                            <li>选购手机</li>
-                            <li>选购配件</li>
-                            <li>选购碎屏保</li>
-                            <li>以旧换新</li>
-                        </ul>
-                        <ul class="conListLef">
-                            <li>服务支持</li>
-                            <li>官方商城</li>
-                            <li>选购手机</li>
-                            <li>选购配件</li>
-                            <li>选购碎屏保</li>
-                            <li>以旧换新</li>
-                        </ul>
-                        <ul class="conListLef">
-                            <li>vivo社区</li>
-                            <li>官方商城</li>
-                            <li>选购手机</li>
-                            <li>选购配件</li>
-                            <li>选购碎屏保</li>
-                            <li>以旧换新</li>
-                        </ul>
-                        <ul class="conListLef">
-                            <li>关于vivo</li>
-                            <li>官方商城</li>
-                            <li>选购手机</li>
-                            <li>选购配件</li>
-                            <li>选购碎屏保</li>
-                            <li>以旧换新</li>
-                        </ul>
-                        <div class="conListRi">
-                            <img src="images/phone_03.jpg" alt="">
-                        </div>
-                    </div>
-                    <p class="tital">
-                        Copyright ©2011-2018 广东步步高电子工业有限公司 版权所有 保留一切权利 | 隐私政策 | 法律声明 | 粤B2-20080267 | 粤ICP备05100288号
-                    </p>
-                </div>
         </div>
         <ul class="fixList">
-            <li>
-                <a href="shopcar.html">
-                    <i class="iconfont icon-gouwuche fixTit"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="iconfont icon-kefu fixTit" ></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="iconfont icon-iconfonticon4 fixTit" style="font-size: 30px"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="iconfont icon-fanhuidingbu fixTit" ></i>
-                </a>
-            </li>
         </ul>
         <div id="addDown">
         </div>
@@ -205,8 +84,12 @@
             <button class="goOn" type="button">继续逛逛</button>
         </div>
     </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/procon.js"></script>
     <script>
+        $("#topbg").load("vivoshouye.html #topbg");
+        $("#Bottombg").load("vivoshouye.html #Bottombg");
+        $(".fixList").load("vivoshouye.html .fixList");
         procon.init();
     </script>
 </body>
