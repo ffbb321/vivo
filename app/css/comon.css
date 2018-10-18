@@ -16,7 +16,7 @@ a:hover {
 #top,#Bottom{width: 1244px;margin: 0 auto}
 /* top */
 #topbg{background: #2f2f2f}
-#top{height: 44px;}
+#top{height: 44px;position: relative;}
 .logo{
     float: left;
     width: 74px;
@@ -26,7 +26,7 @@ a:hover {
     background: url(../images/LOGO_03.jpg) no-repeat;
     background-position-y: 50%}
 .topul{float: left;}
-.topul li{float: left;}
+.topuli{float: left;}
 .topul li a{
     height: 100%;
     line-height: 44px;
@@ -34,6 +34,38 @@ a:hover {
     font-size: 14px;
     padding: 0 22px;
 }
+.topuli ul li{
+    margin-bottom: 5px;
+}
+.topSecul{
+    display: none;
+    position: absolute;
+    height: 150px;
+    left: 0;
+    top: 44px;
+    background: #2f2f2f;
+    z-index: 101;
+    width:100%;
+}
+.tsNex,.tsX,.tsZ,.tsY{
+    padding-top: 15px;
+    float: left;
+    width: 220px;
+    padding-left: 22px;
+    height: 150px;
+    border-left: 2px solid #ccc;
+    position: absolute;
+    color: #f7f7f5;
+    font-size: 14px;
+    z-index: 110;
+    display: none;
+}
+.tsNex{
+    left: 250px;
+}
+.tsX{left: 350px;}
+.tsZ{left: 440px;}
+.tsY{left: 520px;}
 .search,.my{
     position: absolute;
     right: 58px;
@@ -138,7 +170,7 @@ a:hover {
     right: 0;
     width: 50px;
     height: 200px;
-    z-index: 100;
+    z-index: 200;
 }
 .fixList li{
     width: 50px;

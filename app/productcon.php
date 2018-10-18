@@ -16,7 +16,7 @@
         $json = json_decode(file_get_contents("json/".$name.".json"));
     ?>
     <div id="vivo">
-        <div id="topbg">
+        <div id="header">
         </div>
         <div id="navi">
             <a href="vivoshouye.html">商品首页<i class="iconfont icon-arrow-right-copy"></i></a>
@@ -29,9 +29,9 @@
                     <img class="proPic" src=<?php echo $json->pic?> alt="">
                     <img class="prosale" src="images/sale.png" alt="">
                 </div>
-                <div class="proBigPic">
+                <!-- <div class="proBigPic">
                     <img src=<?php echo $json->pic?> alt="">
-                </div>
+                </div> -->
                 <ul class="proPicList">
                     <li><img class="Listpic" src=<?php echo $json->pic?> alt=""></li>
                     <li><img class="Listpic" src=<?php echo $json->pic?> alt=""></li>
@@ -88,11 +88,14 @@
         </div>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $("#header").load("common.html #topbg");
+        $("#Bottombg").load("common.html #Bottombg");
+        $(".fixList").load("common.html .fixList");
+        </script>
+    <script src="js/common.js"></script>
     <script src="js/procon.js"></script>
     <script>
-        $("#topbg").load("vivoshouye.html #topbg");
-        $("#Bottombg").load("vivoshouye.html #Bottombg");
-        $(".fixList").load("vivoshouye.html .fixList");
         procon.init();
     </script>
 </body>
